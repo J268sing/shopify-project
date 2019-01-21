@@ -56,7 +56,7 @@ public class recyclerAdapter extends RecyclerView.Adapter<recyclerAdapter.ViewHo
             str1.add(str.get(x));
         }
         productName = TextUtils.join(" ",str1);
-        availableQuantatity = "Total: " + availableQuantatity;
+        availableQuantatity = "Available: " + availableQuantatity;
 
         //display the items in card view
         viewHolder.itemTitle.setText(productName);
