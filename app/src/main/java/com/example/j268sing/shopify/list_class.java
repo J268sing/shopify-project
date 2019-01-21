@@ -12,8 +12,6 @@ public class list_class {
     // variable to give image link of the book;
     private String mImage;
 
-    // variable for name of the pdf
-    private String mpdfname;
 
 
     /*
@@ -24,11 +22,10 @@ public class list_class {
      * @param imageName is drawable reference ID that corresponds to the Android version
      * */
 
-    public list_class(String title, String id, String image,  String pdfName){
+    public list_class(String title, String id, String image){
         mTitle = title;
         mId = id;
         mImage = image;
-        mpdfname = pdfName;
     }
 
     /**
@@ -56,12 +53,8 @@ public class list_class {
 
     public String getmImage(){ return mImage;}
 
-    /**
-     * Get the pdfname fo downloading the image
-     */
 
 
-    public String getMpdfname(){ return mpdfname;}
 
 }
 
